@@ -80,7 +80,7 @@ fun LoginScreen(navController: NavController) {
                             launchSingleTop = true
                         }
                     } else {
-                        errorMessage = "Username dan Password tidak boleh kosong."
+                        errorMessage = "Username atau Password tidak boleh kosong."
                     }
                 },
                 modifier = Modifier.fillMaxWidth()
