@@ -65,7 +65,7 @@ fun AboutScreen(navController: NavController) {
                     .padding(bottom = 0.dp),
                 contentScale = ContentScale.Crop
             )
-            Spacer(modifier = Modifier.height(30.dp))
+            Spacer(modifier = Modifier.height(20.dp))
 
             InfoRow(label = "Nama Lengkap", value = programmerName)
             InfoRow(label = "NIM", value = programmerNim)
