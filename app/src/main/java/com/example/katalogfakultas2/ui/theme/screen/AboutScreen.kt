@@ -25,7 +25,7 @@ import com.example.katalogfakultas2.ui.theme.KatalogFakultas2Theme
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AboutScreen(navController: NavController) {
-    val programmerPhotoResId = R.drawable.profile
+    val programmerPhotoResId = R.drawable.profil
     val programmerName = "Java Maulana"
     val programmerNim = "2410431021"
     val programmerDepartment = "Matematika dan Sains Data"
